@@ -1,5 +1,31 @@
 {
-  "packages": {},
+  "packages": {
+    "jp.ootr.common": {
+      "versions": {
+        "0.0.5": {
+          "name": "jp.ootr.common",
+          "displayName": "ootr's common utils",
+          "version": "0.0.5",
+          "license": "MIT",
+          "unity": "2022.3",
+          "description": "Common utilities for ootr's projects",
+          "author": {
+            "email": "ootr@ootr.jp",
+            "name": "ootr",
+            "url": "https://github.com/o-tr"
+          },
+          "url": "https://github.com/o-tr/common",
+          "vpmDependencies": {
+            "com.vrchat.base": "3.6.1",
+            "com.vrchat.worlds": "3.6.1"
+          },
+          "legacyFolders": {
+            "Assets\\jp.ootr\\common": "dfb5a4aaee665134381f4f650ccb7bfa"
+          }
+        }
+      }
+    }
+  },
   "author": "ootr (o-tr)",
   "name": "ootr",
   "id": "jp.ootr.vpm",
