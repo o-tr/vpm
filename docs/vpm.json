@@ -14,7 +14,7 @@
             "name": "ootr",
             "url": "https://github.com/o-tr"
           },
-          "url": "https://github.com/o-tr/common",
+          "url": "https://github.com/o-tr/jp.ootr.common/releases/download/v0.0.5/release.zip",
           "vpmDependencies": {
             "com.vrchat.base": "3.6.1",
             "com.vrchat.worlds": "3.6.1"
