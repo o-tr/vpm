@@ -74,6 +74,33 @@
           }
         }
       }
+    },
+    "jp.ootr.ImageDeviceController": {
+      "versions": {
+        "0.0.6": {
+          "name": "jp.ootr.ImageDeviceController",
+          "displayName": "ImageDeviceController",
+          "version": "0.0.6",
+          "license": "MIT",
+          "unity": "2022.3",
+          "description": "Base Controller for image device gimmick",
+          "author": {
+            "email": "ootr@ootr.jp",
+            "name": "ootr",
+            "url": "https://github.com/o-tr"
+          },
+          "url": "https://github.com/o-tr/jp.ootr.imagedevicecontroller/releases/latest/download/release.zip",
+          "vpmDependencies": {
+            "com.vrchat.base": "3.6.1",
+            "com.vrchat.worlds": "3.6.1",
+            "jp.ootr.common": "0.0.5",
+            "jp.ootr.UdonZip": "0.1.1"
+          },
+          "legacyFolders": {
+            "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          }
+        }
+      }
     }
   },
   "author": "ootr (o-tr)",
