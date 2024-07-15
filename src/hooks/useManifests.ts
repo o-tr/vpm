@@ -6,7 +6,7 @@ export const useManifests = () => {
     
     useEffect(() => {
         void (async()=>{
-            const response = await fetch('/vpm.json');
+            const response = await fetch('./vpm.json');
             const data = await response.json();
             setManifests(data);
         })();
