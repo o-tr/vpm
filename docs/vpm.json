@@ -25,10 +25,10 @@
         }
       }
     },
-    "jp.ootr.udonzip": {
+    "jp.ootr.UdonZip": {
       "versions": {
         "0.1.1": {
-          "name": "jp.ootr.udonzip",
+          "name": "jp.ootr.UdonZip",
           "displayName": "UdonZip",
           "version": "0.1.1",
           "license": "MIT",
@@ -50,10 +50,10 @@
         }
       }
     },
-    "jp.ootr.udonlz4": {
+    "jp.ootr.UdonLZ4": {
       "versions": {
         "0.0.1": {
-          "name": "jp.ootr.udonlz4",
+          "name": "jp.ootr.UdonLZ4",
           "displayName": "UdonLZ4",
           "version": "0.0.1",
           "license": "BSD-2-Clause",
