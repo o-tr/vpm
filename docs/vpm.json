@@ -25,10 +25,10 @@
         }
       }
     },
-    "jp.ootr.UdonZip": {
+    "jp.ootr.udon-zip": {
       "versions": {
         "0.1.1": {
-          "name": "jp.ootr.UdonZip",
+          "name": "jp.ootr.udon-zip",
           "displayName": "UdonZip",
           "version": "0.1.1",
           "license": "MIT",
@@ -50,10 +50,10 @@
         }
       }
     },
-    "jp.ootr.UdonLZ4": {
+    "jp.ootr.udon-lz4": {
       "versions": {
         "0.0.1": {
-          "name": "jp.ootr.UdonLZ4",
+          "name": "jp.ootr.udon-lz4",
           "displayName": "UdonLZ4",
           "version": "0.0.1",
           "license": "BSD-2-Clause",
@@ -75,10 +75,10 @@
         }
       }
     },
-    "jp.ootr.ImageDeviceController": {
+    "jp.ootr.image-device-controller": {
       "versions": {
         "0.0.6": {
-          "name": "jp.ootr.ImageDeviceController",
+          "name": "jp.ootr.image-device-controller",
           "displayName": "ImageDeviceController",
           "version": "0.0.6",
           "license": "MIT",
