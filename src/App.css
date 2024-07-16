@@ -3,6 +3,9 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 .logo {
@@ -39,6 +42,19 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.packages{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.package{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .package .meta{
