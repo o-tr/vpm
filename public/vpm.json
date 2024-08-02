@@ -164,7 +164,7 @@
             "name": "ootr",
             "url": "https://github.com/o-tr"
           },
-          "url": "https://github.com/o-tr/jp.ootr.ImageScreen/releases/latest/download/release.zip",
+          "url": "https://github.com/o-tr/jp.ootr.ImageScreen/releases/download/v0.0.6/release.zip",
           "vpmDependencies": {
             "com.vrchat.base": "3.6.1",
             "com.vrchat.worlds": "3.6.1",
