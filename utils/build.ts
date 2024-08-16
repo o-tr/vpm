@@ -27,7 +27,7 @@ void (async()=>{
         "Authorization": `token ${token}`
       }
     }).then(res => res.json());
-    const tags = releases.map((release: {tag_name: string}) => release.tag_name).reverse();
+    const tags = releases.map((release: {tag_name: string}) => release.tag_name);
     const manifests = await Promise.all(tags.map(async (tag) => {
       const manifest = await fetch(`https://raw.githubusercontent.com/${pkg}/${tag}/package.json`).then(res => res.json());
       return {
