@@ -24,7 +24,7 @@ void (async()=>{
   const baseManifests = await Promise.all(targetPackages.map(async (pkg) => {
     const releases = await fetch(`https://api.github.com/repos/${pkg}/releases`,{
       headers: {
-        "Authorization": `token ${token}`
+        "Authorization": `Bearer ${token}`
       }
     }).then(res => res.json());
     console.log(releases);
