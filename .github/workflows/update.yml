@@ -28,6 +28,8 @@ jobs:
         run: pnpm update
       - name: Build
         run: pnpm update:vpm
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit
         run: |
           git config --global user.name 'workflow'
