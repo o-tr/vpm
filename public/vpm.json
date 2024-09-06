@@ -492,6 +492,30 @@
     },
     "jp.ootr.common": {
       "versions": {
+        "0.0.10": {
+          "name": "jp.ootr.common",
+          "displayName": "ootr's common utils",
+          "version": "0.0.10",
+          "license": "MIT",
+          "unity": "2022.3",
+          "description": "Common utilities for ootr's projects",
+          "author": {
+            "email": "ootr@ootr.jp",
+            "name": "ootr",
+            "url": "https://github.com/o-tr"
+          },
+          "url": "https://github.com/o-tr/jp.ootr.common/releases/download/v0.0.10/release.zip",
+          "changelogUrl": "https://github.com/o-tr/jp.ootr.common/releases/",
+          "licensesUrl": "https://github.com/o-tr/jp.ootr.common/blob/release/LICENSE",
+          "documentationUrl": "https://docs.ootr.jp/",
+          "vpmDependencies": {
+            "com.vrchat.base": "^3.6.1",
+            "com.vrchat.worlds": "^3.6.1"
+          },
+          "legacyFolders": {
+            "Assets\\jp.ootr\\common": "dfb5a4aaee665134381f4f650ccb7bfa"
+          }
+        },
         "0.0.9": {
           "name": "jp.ootr.common",
           "displayName": "ootr's common utils",
@@ -604,6 +628,32 @@
     },
     "jp.ootr.image-device-controller": {
       "versions": {
+        "0.2.3": {
+          "name": "jp.ootr.image-device-controller",
+          "displayName": "ImageDeviceController",
+          "version": "0.2.3",
+          "license": "MIT",
+          "unity": "2022.3",
+          "description": "Base Controller for image device gimmick",
+          "author": {
+            "email": "ootr@ootr.jp",
+            "name": "ootr",
+            "url": "https://github.com/o-tr"
+          },
+          "url": "https://github.com/o-tr/jp.ootr.ImageDeviceController/releases/download/v0.2.3/release.zip",
+          "changelogUrl": "https://github.com/o-tr/jp.ootr.imagedevicecontroller/releases/",
+          "licensesUrl": "https://github.com/o-tr/jp.ootr.imagedevicecontroller/blob/release/LICENSE",
+          "documentationUrl": "https://docs.ootr.jp/",
+          "vpmDependencies": {
+            "com.vrchat.base": "^3.6.1",
+            "com.vrchat.worlds": "^3.6.1",
+            "jp.ootr.common": "~0.0.10",
+            "jp.ootr.udon-zip": "^0.1.2"
+          },
+          "legacyFolders": {
+            "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          }
+        },
         "0.2.2": {
           "name": "jp.ootr.image-device-controller",
           "displayName": "ImageDeviceController",
@@ -778,6 +828,28 @@
     },
     "jp.ootr.image-device-controller-visualizer": {
       "versions": {
+        "0.0.3": {
+          "name": "jp.ootr.image-device-controller-visualizer",
+          "displayName": "ImageDeviceControllerVisualizer",
+          "version": "0.0.3",
+          "license": "MIT",
+          "unity": "2022.3",
+          "description": "Cache visualizer for image device controller",
+          "author": {
+            "email": "ootr@ootr.jp",
+            "name": "ootr",
+            "url": "https://github.com/o-tr"
+          },
+          "url": "https://github.com/o-tr/jp.ootr.ImageDeviceControllerVisualizer/releases/download/v0.0.3/release.zip",
+          "changelogUrl": "https://github.com/o-tr/jp.ootr.imagedevicecontrollervisualizer/releases/",
+          "licensesUrl": "https://github.com/o-tr/jp.ootr.imagedevicecontrollervisualizer/blob/release/LICENSE",
+          "documentationUrl": "https://docs.ootr.jp/",
+          "vpmDependencies": {
+            "com.vrchat.base": "^3.6.1",
+            "com.vrchat.worlds": "^3.6.1",
+            "jp.ootr.image-device-controller": "~0.2.3"
+          }
+        },
         "0.0.2": {
           "name": "jp.ootr.image-device-controller-visualizer",
           "displayName": "ImageDeviceControllerVisualizer",
@@ -823,6 +895,32 @@
     },
     "jp.ootr.image-tab": {
       "versions": {
+        "0.2.2": {
+          "name": "jp.ootr.image-tab",
+          "displayName": "ImageTab",
+          "version": "0.2.2",
+          "license": "MIT",
+          "unity": "2022.3",
+          "description": "Image tablet gimmick for VRChat",
+          "author": {
+            "email": "ootr@ootr.jp",
+            "name": "ootr",
+            "url": "https://github.com/o-tr"
+          },
+          "url": "https://github.com/o-tr/jp.ootr.ImageTab/releases/download/v0.2.2/release.zip",
+          "changelogUrl": "https://github.com/o-tr/jp.ootr.imagetab/releases/",
+          "licensesUrl": "https://github.com/o-tr/jp.ootr.imagetab/blob/release/LICENSE",
+          "documentationUrl": "https://docs.ootr.jp/",
+          "vpmDependencies": {
+            "com.vrchat.base": "^3.6.1",
+            "com.vrchat.worlds": "^3.6.1",
+            "jp.ootr.common": "~0.0.10",
+            "jp.ootr.image-device-controller": "~0.2.3"
+          },
+          "legacyFolders": {
+            "Assets\\jp.ootr\\imagetab": "44c35e5266e08d948a1cfe3898d9a753"
+          }
+        },
         "0.2.1": {
           "name": "jp.ootr.image-tab",
           "displayName": "ImageTab",
@@ -971,6 +1069,29 @@
     },
     "jp.ootr.image-slide": {
       "versions": {
+        "0.2.1": {
+          "name": "jp.ootr.image-slide",
+          "displayName": "ImageSlide",
+          "version": "0.2.1",
+          "license": "MIT",
+          "unity": "2022.3",
+          "description": "Slide gimmick for VRChat using ImageDeviceController",
+          "author": {
+            "email": "ootr@ootr.jp",
+            "name": "ootr",
+            "url": "https://github.com/o-tr"
+          },
+          "url": "https://github.com/o-tr/jp.ootr.ImageSlide/releases/download/v0.2.1/release.zip",
+          "changelogUrl": "https://github.com/o-tr/jp.ootr.ImageSlide/releases/",
+          "licensesUrl": "https://github.com/o-tr/jp.ootr.ImageSlide/blob/release/LICENSE",
+          "documentationUrl": "https://docs.ootr.jp/",
+          "vpmDependencies": {
+            "com.vrchat.base": "^3.6.1",
+            "com.vrchat.worlds": "^3.6.1",
+            "jp.ootr.common": "~0.0.10",
+            "jp.ootr.image-device-controller": "~0.2.3"
+          }
+        },
         "0.2.0": {
           "name": "jp.ootr.image-slide",
           "displayName": "ImageSlide",
@@ -1138,6 +1259,29 @@
     },
     "jp.ootr.image-screen": {
       "versions": {
+        "0.2.1": {
+          "name": "jp.ootr.image-screen",
+          "displayName": "ImageScreen",
+          "version": "0.2.1",
+          "license": "MIT",
+          "unity": "2022.3",
+          "description": "Image Screen for image device gimmick",
+          "author": {
+            "email": "ootr@ootr.jp",
+            "name": "ootr",
+            "url": "https://github.com/o-tr"
+          },
+          "url": "https://github.com/o-tr/jp.ootr.ImageScreen/releases/download/v0.2.1/release.zip",
+          "changelogUrl": "https://github.com/o-tr/jp.ootr.ImageScreen/releases/",
+          "licensesUrl": "https://github.com/o-tr/jp.ootr.ImageScreen/blob/release/LICENSE",
+          "documentationUrl": "https://docs.ootr.jp/",
+          "vpmDependencies": {
+            "com.vrchat.base": "^3.6.1",
+            "com.vrchat.worlds": "^3.6.1",
+            "jp.ootr.common": "~0.0.10",
+            "jp.ootr.image-device-controller": "~0.2.3"
+          }
+        },
         "0.2.0": {
           "name": "jp.ootr.image-screen",
           "displayName": "ImageScreen",
