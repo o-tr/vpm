@@ -284,6 +284,28 @@
     },
     "jp.ootr.weather-widget": {
       "versions": {
+        "0.0.8": {
+          "name": "jp.ootr.weather-widget",
+          "displayName": "Weather Widget",
+          "version": "0.0.8",
+          "license": "MIT",
+          "unity": "2022.3",
+          "description": "weather widget for vrchat worlds",
+          "author": {
+            "email": "ootr@ootr.jp",
+            "name": "ootr",
+            "url": "https://github.com/o-tr"
+          },
+          "url": "https://github.com/o-tr/jp.ootr.WeatherWidget/releases/download/v0.0.8/release.zip",
+          "changelogUrl": "https://github.com/o-tr/jp.ootr.WeatherWidget/releases/",
+          "licensesUrl": "https://github.com/o-tr/jp.ootr.WeatherWidget/blob/release/LICENSE",
+          "documentationUrl": "https://docs.ootr.jp/",
+          "vpmDependencies": {
+            "com.vrchat.base": "^3.6.1",
+            "com.vrchat.worlds": "^3.6.1",
+            "jp.ootr.common": "~0.1.0"
+          }
+        },
         "0.0.7": {
           "name": "jp.ootr.weather-widget",
           "displayName": "Weather Widget",
@@ -522,6 +544,30 @@
     },
     "jp.ootr.common": {
       "versions": {
+        "0.1.0": {
+          "name": "jp.ootr.common",
+          "displayName": "ootr's common utils",
+          "version": "0.1.0",
+          "license": "MIT",
+          "unity": "2022.3",
+          "description": "Common utilities for ootr's projects",
+          "author": {
+            "email": "ootr@ootr.jp",
+            "name": "ootr",
+            "url": "https://github.com/o-tr"
+          },
+          "url": "https://github.com/o-tr/jp.ootr.common/releases/download/v0.1.0/release.zip",
+          "changelogUrl": "https://github.com/o-tr/jp.ootr.common/releases/",
+          "licensesUrl": "https://github.com/o-tr/jp.ootr.common/blob/release/LICENSE",
+          "documentationUrl": "https://docs.ootr.jp/",
+          "vpmDependencies": {
+            "com.vrchat.base": "^3.6.1",
+            "com.vrchat.worlds": "^3.6.1"
+          },
+          "legacyFolders": {
+            "Assets\\jp.ootr\\common": "dfb5a4aaee665134381f4f650ccb7bfa"
+          }
+        },
         "0.0.10": {
           "name": "jp.ootr.common",
           "displayName": "ootr's common utils",
