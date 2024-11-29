@@ -6,6 +6,7 @@ import { fileURLToPath } from 'url';
 const targetPackages = [
   "o-tr/jp.ootr.ImageGimmicksPack",
   "o-tr/jp.ootr.WeatherWidget",
+  "o-tr/jp.ootr.LaserPointer",
   "o-tr/jp.ootr.UdonZip",
   "o-tr/jp.ootr.UdonLZ4",
   "o-tr/jp.ootr.common",
@@ -14,6 +15,7 @@ const targetPackages = [
   "o-tr/jp.ootr.ImageDeviceControllerVisualizer",
   "o-tr/jp.ootr.ImageTab",
   "o-tr/jp.ootr.ImageSlide",
+  "o-tr/jp.ootr.ScreenMirror",
   "o-tr/jp.ootr.ImageScreen",
 ] as string[];
 
