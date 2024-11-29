@@ -602,6 +602,28 @@
     },
     "jp.ootr.laser-pointer": {
       "versions": {
+        "0.0.3": {
+          "name": "jp.ootr.laser-pointer",
+          "displayName": "Laser Pointer",
+          "version": "0.0.3",
+          "license": "MIT",
+          "unity": "2022.3",
+          "description": "Laser Pointer for VRChat",
+          "author": {
+            "email": "ootr@ootr.jp",
+            "name": "ootr",
+            "url": "https://github.com/o-tr"
+          },
+          "url": "https://github.com/o-tr/jp.ootr.LaserPointer/releases/download/v0.0.3/release.zip",
+          "changelogUrl": "https://github.com/o-tr/jp.ootr.LaserPointer/releases/",
+          "licensesUrl": "https://github.com/o-tr/jp.ootr.LaserPointer/blob/release/LICENSE",
+          "documentationUrl": "https://docs.ootr.jp/",
+          "vpmDependencies": {
+            "com.vrchat.base": "^3.6.1",
+            "com.vrchat.worlds": "^3.6.1",
+            "jp.ootr.common": "~0.1.5"
+          }
+        },
         "0.0.2": {
           "name": "jp.ootr.laser-pointer",
           "displayName": "Laser Pointer",
