@@ -2,6 +2,37 @@
   "packages": {
     "jp.ootr.image-gimmicks-pack": {
       "versions": {
+        "0.2.7": {
+          "name": "jp.ootr.image-gimmicks-pack",
+          "displayName": "Image Gimmicks Pack",
+          "version": "0.2.7",
+          "license": "MIT",
+          "unity": "2022.3",
+          "description": "Image tablet gimmick for VRChat",
+          "author": {
+            "email": "ootr@ootr.jp",
+            "name": "ootr",
+            "url": "https://github.com/o-tr"
+          },
+          "url": "https://github.com/o-tr/jp.ootr.ImageGimmicksPack/releases/download/v0.2.7/release.zip",
+          "changelogUrl": "https://github.com/o-tr/jp.ootr.ImageGimmicksPack/releases/",
+          "licensesUrl": "https://github.com/o-tr/jp.ootr.ImageGimmicksPack/blob/release/LICENSE",
+          "documentationUrl": "https://docs.ootr.jp/",
+          "vpmDependencies": {
+            "com.vrchat.base": "^3.6.1",
+            "com.vrchat.worlds": "^3.6.1",
+            "jp.ootr.common": "~0.1.8",
+            "jp.ootr.custom-scaler": "~0.0.3",
+            "jp.ootr.image-device-controller": "~0.3.12",
+            "jp.ootr.image-tab": "~0.2.6",
+            "jp.ootr.image-screen": "~0.2.6",
+            "jp.ootr.image-slide": "~0.2.22",
+            "jp.ootr.image-device-controller-visualizer": "~0.0.4"
+          },
+          "legacyFolders": {
+            "Assets\\jp.ootr\\imagetab": "44c35e5266e08d948a1cfe3898d9a753"
+          }
+        },
         "0.2.6": {
           "name": "jp.ootr.image-gimmicks-pack",
           "displayName": "Image Gimmicks Pack",
@@ -2049,6 +2080,30 @@
     },
     "jp.ootr.image-slide": {
       "versions": {
+        "0.2.22": {
+          "name": "jp.ootr.image-slide",
+          "displayName": "ImageSlide",
+          "version": "0.2.22",
+          "license": "MIT",
+          "unity": "2022.3",
+          "description": "Slide gimmick for VRChat using ImageDeviceController",
+          "author": {
+            "email": "ootr@ootr.jp",
+            "name": "ootr",
+            "url": "https://github.com/o-tr"
+          },
+          "url": "https://github.com/o-tr/jp.ootr.ImageSlide/releases/download/v0.2.22/release.zip",
+          "changelogUrl": "https://github.com/o-tr/jp.ootr.ImageSlide/releases/",
+          "licensesUrl": "https://github.com/o-tr/jp.ootr.ImageSlide/blob/release/LICENSE",
+          "documentationUrl": "https://docs.ootr.jp/",
+          "vpmDependencies": {
+            "com.vrchat.base": "^3.6.1",
+            "com.vrchat.worlds": "^3.6.1",
+            "jp.ootr.common": "~0.1.6",
+            "jp.ootr.image-device-controller": "~0.3.9",
+            "jp.ootr.custom-scaler": "~0.0.2"
+          }
+        },
         "0.2.21": {
           "name": "jp.ootr.image-slide",
           "displayName": "ImageSlide",
