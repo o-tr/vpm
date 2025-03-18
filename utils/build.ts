@@ -9,6 +9,7 @@ const targetPackages = [
   "o-tr/jp.ootr.LaserPointer",
   "o-tr/jp.ootr.UdonZip",
   "o-tr/jp.ootr.UdonLZ4",
+  "o-tr/jp.ootr.udon-base64-csv-rle",
   "o-tr/jp.ootr.common",
   "o-tr/jp.ootr.CustomScaler",
   "o-tr/jp.ootr.ImageDeviceController",
