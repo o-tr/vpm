@@ -653,6 +653,9 @@
         }
       }
     },
+    "o-tr/jp.ootr.othello": {
+      "versions": {}
+    },
     "jp.ootr.laser-pointer": {
       "versions": {
         "0.0.3": {
