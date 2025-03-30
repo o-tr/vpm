@@ -6,6 +6,7 @@ import { fileURLToPath } from 'url';
 const targetPackages = [
   "o-tr/jp.ootr.ImageGimmicksPack",
   "o-tr/jp.ootr.WeatherWidget",
+  "o-tr/jp.ootr.othello",
   "o-tr/jp.ootr.LaserPointer",
   "o-tr/jp.ootr.UdonZip",
   "o-tr/jp.ootr.UdonLZ4",
