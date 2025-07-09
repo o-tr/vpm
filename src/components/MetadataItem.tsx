@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 
 export const MetadataItem = ({
   icon,
@@ -18,7 +18,9 @@ export const MetadataItem = ({
           {icon}
           {name}:
         </span>
-      ) : icon}
+      ) : (
+        icon
+      )}
       {href ? (
         <a
           href={href}

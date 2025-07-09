@@ -1,9 +1,8 @@
 import { Copyright, Logs, UserPen } from "lucide-react";
 import { Card, CardContent, CardHeader } from "../components/ui/card";
-import { Manifest, Package } from "../types/manifest";
-import { VersionsDisplay } from "./VersionsDisplay";
-import { ReactNode } from "react";
+import type { Manifest, Package } from "../types/manifest";
 import { MetadataItem } from "./MetadataItem";
+import { VersionsDisplay } from "./VersionsDisplay";
 
 interface PackageCardProps {
   packageName: string;
@@ -42,7 +41,7 @@ export function PackageCard({ packageName, pkg, manifests }: PackageCardProps) {
             value={latestVersion.license}
             href={latestVersion.licensesUrl}
           />
-          <MetadataItem 
+          <MetadataItem
             icon={<Logs height={16} width={16} />}
             value={"Changelog"}
             href={latestVersion.changelogUrl}
