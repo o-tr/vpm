@@ -15,8 +15,10 @@ export type PackageItem = {
     displayName: string;
     version: string;
     license: string;
+    licensesUrl: string;
     unity: string;
     description: string;
+    changelogUrl: string;
     author: {
         name: string;
         email: string;
