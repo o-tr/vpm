@@ -11,9 +11,14 @@
     "update:vpm": "tsx ./utils/build.ts"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.2.3",
     "@tailwindcss/vite": "^4.1.11",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.525.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "tailwind-merge": "^3.3.1",
     "tailwindcss": "^4.1.11"
   },
   "devDependencies": {
@@ -28,6 +33,7 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.9",
     "tsx": "^4.17.0",
+    "tw-animate-css": "^1.3.5",
     "typescript": "^5.5.4",
     "vite": "^5.4.1"
   }
