@@ -1,6 +1,7 @@
 import { Copyright, Logs, UserPen } from "lucide-react";
 import { Card, CardContent, CardHeader } from "../components/ui/card";
-import type { Manifest, Package } from "../types/manifest";
+import { sortPackageVersionsDesc } from "../lib/sortPackageVersions";
+import type { Manifest, Package, PackageItem } from "../types/manifest";
 import { MetadataItem } from "./MetadataItem";
 import { VersionsDisplay } from "./VersionsDisplay";
 
@@ -11,7 +12,9 @@ interface PackageCardProps {
 }
 
 export function PackageCard({ packageName, pkg, manifests }: PackageCardProps) {
-  const versions = Object.entries(pkg.versions);
+  const versions = sortPackageVersionsDesc(
+    Object.entries(pkg.versions) as [string, PackageItem][],
+  );
   const latestVersion = versions[0][1];
   return (
     <Card className="w-full max-w-xl mx-auto" id={packageName}>

@@ -162,13 +162,14 @@ export function VersionsDisplay({ manifests, versions }: VersionsDisplayProps) {
         <tbody>
           <VersionRow manifests={manifests} packageItem={packageItem} />
           <tr>
-            <td
-              colSpan={3}
-              className="text-center text-blue-500 cursor-pointer hover:underline py-2 bg-zinc-800/40 rounded-b-lg"
-              onClick={() => setIsExpanded(true)}
-              onKeyDown={() => setIsExpanded(true)}
-            >
-              &lt;&lt; Show all versions &gt;&gt;
+            <td colSpan={3} className="p-0 rounded-b-lg bg-zinc-800/40">
+              <button
+                type="button"
+                className="w-full text-center text-xs text-blue-500 cursor-pointer hover:underline py-2 bg-transparent border-0 rounded-b-lg"
+                onClick={() => setIsExpanded(true)}
+              >
+                &lt;&lt; Show all versions &gt;&gt;
+              </button>
             </td>
           </tr>
         </tbody>

@@ -1,11 +1,11 @@
 {
-  "jp.ootr.udonzip": {
-    "<0.1.5": "クライアント側のDoSを引き起こす複数のパーサー脆弱性\nhttps://github.com/o-tr/jp.ootr.udonzip/security/advisories/GHSA-jw4g-9www-5pm9"
+  "jp.ootr.udon-zip": {
+    "<0.1.5": "クライアント側のDoSを引き起こす複数のパーサー脆弱性\nhttps://github.com/o-tr/jp.ootr.UdonZip/security/advisories/GHSA-jw4g-9www-5pm9"
   },
-  "jp.ootr.udonlz4": {
-    "<0.0.5": "LZ4フレームパーサーの脆弱性に起因するクライアントのDoS\nhttps://github.com/o-tr/jp.ootr.udonlz4/security/advisories/GHSA-w9q3-7626-r8pv"
+  "jp.ootr.udon-lz4": {
+    "<0.0.5": "LZ4フレームパーサーの脆弱性に起因するクライアントのDoS\nhttps://github.com/o-tr/jp.ootr.UdonLZ4/security/advisories/GHSA-w9q3-7626-r8pv"
   },
-  "jp.ootr.imagedevicecontroller": {
+  "jp.ootr.image-device-controller": {
     "<0.4.6": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
   }
 }
