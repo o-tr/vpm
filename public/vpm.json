@@ -915,6 +915,30 @@
     },
     "jp.ootr.udon-zip": {
       "versions": {
+        "0.1.5": {
+          "name": "jp.ootr.udon-zip",
+          "displayName": "UdonZip",
+          "version": "0.1.5",
+          "license": "MIT",
+          "unity": "2022.3",
+          "description": "UdonZip is a ZIP parser written in Udon for VRChat.",
+          "author": {
+            "email": "ootr@ootr.jp",
+            "name": "ootr",
+            "url": "https://github.com/o-tr"
+          },
+          "url": "https://github.com/o-tr/jp.ootr.UdonZip/releases/download/v0.1.5/release.zip",
+          "changelogUrl": "https://github.com/o-tr/jp.ootr.udonzip/releases/",
+          "licensesUrl": "https://github.com/o-tr/jp.ootr.udonzip/blob/release/LICENSE",
+          "documentationUrl": "https://docs.ootr.jp/",
+          "vpmDependencies": {
+            "com.vrchat.base": "^3.6.1",
+            "com.vrchat.worlds": "^3.6.1"
+          },
+          "legacyFolders": {
+            "Assets\\jp.ootr\\UdonZip": "94e7d4dea15bf3e47a86fe1a71c4b97c"
+          }
+        },
         "0.1.4": {
           "name": "jp.ootr.udon-zip",
           "displayName": "UdonZip",
@@ -937,6 +961,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\UdonZip": "94e7d4dea15bf3e47a86fe1a71c4b97c"
+          },
+          "vrc-get": {
+            "yanked": "クライアント側のDoSを引き起こす複数のパーサー脆弱性\nhttps://github.com/o-tr/jp.ootr.UdonZip/security/advisories/GHSA-jw4g-9www-5pm9"
           }
         },
         "0.1.3": {
@@ -961,6 +988,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\UdonZip": "94e7d4dea15bf3e47a86fe1a71c4b97c"
+          },
+          "vrc-get": {
+            "yanked": "クライアント側のDoSを引き起こす複数のパーサー脆弱性\nhttps://github.com/o-tr/jp.ootr.UdonZip/security/advisories/GHSA-jw4g-9www-5pm9"
           }
         },
         "0.1.2": {
@@ -985,6 +1015,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\UdonZip": "94e7d4dea15bf3e47a86fe1a71c4b97c"
+          },
+          "vrc-get": {
+            "yanked": "クライアント側のDoSを引き起こす複数のパーサー脆弱性\nhttps://github.com/o-tr/jp.ootr.UdonZip/security/advisories/GHSA-jw4g-9www-5pm9"
           }
         },
         "0.1.1": {
@@ -1006,12 +1039,39 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\UdonZip": "94e7d4dea15bf3e47a86fe1a71c4b97c"
+          },
+          "vrc-get": {
+            "yanked": "クライアント側のDoSを引き起こす複数のパーサー脆弱性\nhttps://github.com/o-tr/jp.ootr.UdonZip/security/advisories/GHSA-jw4g-9www-5pm9"
           }
         }
       }
     },
     "jp.ootr.udon-lz4": {
       "versions": {
+        "0.0.5": {
+          "name": "jp.ootr.udon-lz4",
+          "displayName": "UdonLZ4",
+          "version": "0.0.5",
+          "license": "BSD-2-Clause",
+          "unity": "2022.3",
+          "description": "LZ4 parser for Udon",
+          "author": {
+            "email": "ootr@ootr.jp",
+            "name": "ootr",
+            "url": "https://github.com/o-tr"
+          },
+          "url": "https://github.com/o-tr/jp.ootr.UdonLZ4/releases/download/v0.0.5/release.zip",
+          "changelogUrl": "https://github.com/o-tr/jp.ootr.udonlz4/releases/",
+          "licensesUrl": "https://github.com/o-tr/jp.ootr.udonlz4/blob/release/LICENSE",
+          "documentationUrl": "https://docs.ootr.jp/",
+          "vpmDependencies": {
+            "com.vrchat.base": "^3.6.1",
+            "com.vrchat.worlds": "^3.6.1"
+          },
+          "legacyFolders": {
+            "Assets\\jp.ootr\\UdonLZ4": "62aa068ff2db4e6a9f5180b077f17574"
+          }
+        },
         "0.0.4": {
           "name": "jp.ootr.udon-lz4",
           "displayName": "UdonLZ4",
@@ -1034,6 +1094,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\UdonLZ4": "62aa068ff2db4e6a9f5180b077f17574"
+          },
+          "vrc-get": {
+            "yanked": "LZ4フレームパーサーの脆弱性に起因するクライアントのDoS\nhttps://github.com/o-tr/jp.ootr.UdonLZ4/security/advisories/GHSA-w9q3-7626-r8pv"
           }
         },
         "0.0.3": {
@@ -1058,6 +1121,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\UdonLZ4": "62aa068ff2db4e6a9f5180b077f17574"
+          },
+          "vrc-get": {
+            "yanked": "LZ4フレームパーサーの脆弱性に起因するクライアントのDoS\nhttps://github.com/o-tr/jp.ootr.UdonLZ4/security/advisories/GHSA-w9q3-7626-r8pv"
           }
         },
         "0.0.2": {
@@ -1082,6 +1148,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\UdonLZ4": "62aa068ff2db4e6a9f5180b077f17574"
+          },
+          "vrc-get": {
+            "yanked": "LZ4フレームパーサーの脆弱性に起因するクライアントのDoS\nhttps://github.com/o-tr/jp.ootr.UdonLZ4/security/advisories/GHSA-w9q3-7626-r8pv"
           }
         },
         "0.0.1": {
@@ -1103,6 +1172,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\UdonLZ4": "62aa068ff2db4e6a9f5180b077f17574"
+          },
+          "vrc-get": {
+            "yanked": "LZ4フレームパーサーの脆弱性に起因するクライアントのDoS\nhttps://github.com/o-tr/jp.ootr.UdonLZ4/security/advisories/GHSA-w9q3-7626-r8pv"
           }
         }
       }
@@ -1134,6 +1206,30 @@
     },
     "jp.ootr.common": {
       "versions": {
+        "0.1.14": {
+          "name": "jp.ootr.common",
+          "displayName": "ootr's common utils",
+          "version": "0.1.14",
+          "license": "MIT",
+          "unity": "2022.3",
+          "description": "Common utilities for ootr's projects",
+          "author": {
+            "email": "ootr@ootr.jp",
+            "name": "ootr",
+            "url": "https://github.com/o-tr"
+          },
+          "url": "https://github.com/o-tr/jp.ootr.common/releases/download/v0.1.14/release.zip",
+          "changelogUrl": "https://github.com/o-tr/jp.ootr.common/releases/",
+          "licensesUrl": "https://github.com/o-tr/jp.ootr.common/blob/release/LICENSE",
+          "documentationUrl": "https://docs.ootr.jp/",
+          "vpmDependencies": {
+            "com.vrchat.base": "^3.7.1",
+            "com.vrchat.worlds": "^3.7.1"
+          },
+          "legacyFolders": {
+            "Assets\\jp.ootr\\common": "dfb5a4aaee665134381f4f650ccb7bfa"
+          }
+        },
         "0.1.13": {
           "name": "jp.ootr.common",
           "displayName": "ootr's common utils",
@@ -1676,6 +1772,63 @@
     },
     "jp.ootr.image-device-controller": {
       "versions": {
+        "0.4.6": {
+          "name": "jp.ootr.image-device-controller",
+          "displayName": "ImageDeviceController",
+          "version": "0.4.6",
+          "license": "MIT",
+          "unity": "2022.3",
+          "description": "Base Controller for image device gimmick",
+          "author": {
+            "email": "ootr@ootr.jp",
+            "name": "ootr",
+            "url": "https://github.com/o-tr"
+          },
+          "url": "https://github.com/o-tr/jp.ootr.ImageDeviceController/releases/download/v0.4.6/release.zip",
+          "changelogUrl": "https://github.com/o-tr/jp.ootr.imagedevicecontroller/releases/",
+          "licensesUrl": "https://github.com/o-tr/jp.ootr.imagedevicecontroller/blob/release/LICENSE",
+          "documentationUrl": "https://docs.ootr.jp/",
+          "vpmDependencies": {
+            "com.vrchat.base": "^3.6.1",
+            "com.vrchat.worlds": "^3.6.1",
+            "jp.ootr.common": "~0.1.9",
+            "jp.ootr.udon-zip": "~0.1.5",
+            "jp.ootr.udon-lz4": "~0.0.5"
+          },
+          "legacyFolders": {
+            "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          }
+        },
+        "0.4.5": {
+          "name": "jp.ootr.image-device-controller",
+          "displayName": "ImageDeviceController",
+          "version": "0.4.5",
+          "license": "MIT",
+          "unity": "2022.3",
+          "description": "Base Controller for image device gimmick",
+          "author": {
+            "email": "ootr@ootr.jp",
+            "name": "ootr",
+            "url": "https://github.com/o-tr"
+          },
+          "url": "https://github.com/o-tr/jp.ootr.ImageDeviceController/releases/download/v0.4.5/release.zip",
+          "changelogUrl": "https://github.com/o-tr/jp.ootr.imagedevicecontroller/releases/",
+          "licensesUrl": "https://github.com/o-tr/jp.ootr.imagedevicecontroller/blob/release/LICENSE",
+          "documentationUrl": "https://docs.ootr.jp/",
+          "vpmDependencies": {
+            "com.vrchat.base": "^3.6.1",
+            "com.vrchat.worlds": "^3.6.1",
+            "jp.ootr.common": "~0.1.9",
+            "jp.ootr.udon-zip": "~0.1.4",
+            "jp.ootr.udon-lz4": "~0.0.4"
+          },
+          "legacyFolders": {
+            "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
+          }
+        },
         "0.4.4": {
           "name": "jp.ootr.image-device-controller",
           "displayName": "ImageDeviceController",
@@ -1701,6 +1854,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
           }
         },
         "0.4.3": {
@@ -1728,6 +1884,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
           }
         },
         "0.4.2": {
@@ -1755,6 +1914,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
           }
         },
         "0.4.1": {
@@ -1782,6 +1944,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
           }
         },
         "0.4.0": {
@@ -1809,6 +1974,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
           }
         },
         "0.3.12": {
@@ -1835,6 +2003,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
           }
         },
         "0.3.11": {
@@ -1861,6 +2032,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
           }
         },
         "0.3.10": {
@@ -1887,6 +2061,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
           }
         },
         "0.3.9": {
@@ -1913,6 +2090,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
           }
         },
         "0.3.8": {
@@ -1939,6 +2119,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
           }
         },
         "0.3.7": {
@@ -1965,6 +2148,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
           }
         },
         "0.3.6": {
@@ -1991,6 +2177,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
           }
         },
         "0.3.5": {
@@ -2017,6 +2206,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
           }
         },
         "0.3.4": {
@@ -2043,6 +2235,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
           }
         },
         "0.3.3": {
@@ -2069,6 +2264,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
           }
         },
         "0.3.2": {
@@ -2095,6 +2293,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
           }
         },
         "0.3.1": {
@@ -2121,6 +2322,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
           }
         },
         "0.2.3": {
@@ -2147,6 +2351,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
           }
         },
         "0.2.2": {
@@ -2173,6 +2380,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
           }
         },
         "0.2.1": {
@@ -2199,6 +2409,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
           }
         },
         "0.2.0": {
@@ -2225,6 +2438,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
           }
         },
         "0.1.2": {
@@ -2248,6 +2464,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
           }
         },
         "0.1.1": {
@@ -2271,6 +2490,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
           }
         },
         "0.1.0": {
@@ -2294,6 +2516,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
           }
         },
         "0.0.6": {
@@ -2317,6 +2542,9 @@
           },
           "legacyFolders": {
             "Assets\\jp.ootr\\ImageDeviceController": "b079956195804767b1ea082cc4b20650"
+          },
+          "vrc-get": {
+            "yanked": "悪意のある圧縮ペイロードによるリモートDoS攻撃およびクライアントのクラッシュ\nhttps://github.com/o-tr/jp.ootr.ImageDeviceController/security/advisories/GHSA-fjgf-98hw-cj66"
           }
         }
       }
