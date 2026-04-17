@@ -10,6 +10,10 @@ export type Package = {
   versions: { [version: string]: PackageItem };
 };
 
+export type VrcGetMeta = {
+  yanked?: boolean | string;
+};
+
 export type PackageItem = {
   name: string;
   displayName: string;
@@ -27,4 +31,5 @@ export type PackageItem = {
   url: string;
   vpmDependencies: { [packageName: string]: string };
   legacyFolders: { [path: string]: string };
+  "vrc-get"?: VrcGetMeta;
 };
