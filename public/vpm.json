@@ -865,6 +865,54 @@
         }
       }
     },
+    "jp.ootr.ludo": {
+      "versions": {
+        "0.0.3": {
+          "name": "jp.ootr.ludo",
+          "displayName": "ootr式ルドー盤",
+          "version": "0.0.3",
+          "license": "MIT",
+          "unity": "2022.3",
+          "description": "Simple Ludo gimmick for VRChat",
+          "author": {
+            "email": "ootr@ootr.jp",
+            "name": "ootr",
+            "url": "https://github.com/o-tr"
+          },
+          "url": "https://github.com/o-tr/jp.ootr.ludo/releases/download/v0.0.3/release.zip",
+          "changelogUrl": "https://github.com/o-tr/jp.ootr.ludo/releases/",
+          "licensesUrl": "https://github.com/o-tr/jp.ootr.ludo/blob/release/LICENSE",
+          "documentationUrl": "https://docs.ootr.jp/",
+          "vpmDependencies": {
+            "com.vrchat.base": "^3.6.1",
+            "com.vrchat.worlds": "^3.6.1",
+            "jp.ootr.common": "~0.1.15"
+          }
+        },
+        "0.0.2": {
+          "name": "jp.ootr.ludo",
+          "displayName": "ootr式ルドー盤",
+          "version": "0.0.2",
+          "license": "MIT",
+          "unity": "2022.3",
+          "description": "Simple Ludo gimmick for VRChat",
+          "author": {
+            "email": "ootr@ootr.jp",
+            "name": "ootr",
+            "url": "https://github.com/o-tr"
+          },
+          "url": "https://github.com/o-tr/jp.ootr.ludo/releases/download/v0.0.2/release.zip",
+          "changelogUrl": "https://github.com/o-tr/jp.ootr.ludo/releases/",
+          "licensesUrl": "https://github.com/o-tr/jp.ootr.ludo/blob/release/LICENSE",
+          "documentationUrl": "https://docs.ootr.jp/",
+          "vpmDependencies": {
+            "com.vrchat.base": "^3.6.1",
+            "com.vrchat.worlds": "^3.6.1",
+            "jp.ootr.common": "~0.1.15"
+          }
+        }
+      }
+    },
     "jp.ootr.laser-pointer": {
       "versions": {
         "0.0.3": {
@@ -1206,6 +1254,30 @@
     },
     "jp.ootr.common": {
       "versions": {
+        "0.1.15": {
+          "name": "jp.ootr.common",
+          "displayName": "ootr's common utils",
+          "version": "0.1.15",
+          "license": "MIT",
+          "unity": "2022.3",
+          "description": "Common utilities for ootr's projects",
+          "author": {
+            "email": "ootr@ootr.jp",
+            "name": "ootr",
+            "url": "https://github.com/o-tr"
+          },
+          "url": "https://github.com/o-tr/jp.ootr.common/releases/download/v0.1.15/release.zip",
+          "changelogUrl": "https://github.com/o-tr/jp.ootr.common/releases/",
+          "licensesUrl": "https://github.com/o-tr/jp.ootr.common/blob/release/LICENSE",
+          "documentationUrl": "https://docs.ootr.jp/",
+          "vpmDependencies": {
+            "com.vrchat.base": "^3.7.1",
+            "com.vrchat.worlds": "^3.7.1"
+          },
+          "legacyFolders": {
+            "Assets\\jp.ootr\\common": "dfb5a4aaee665134381f4f650ccb7bfa"
+          }
+        },
         "0.1.14": {
           "name": "jp.ootr.common",
           "displayName": "ootr's common utils",
